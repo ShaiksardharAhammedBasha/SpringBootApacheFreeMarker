@@ -10,5 +10,10 @@ public class AppController {
 	public String hello() {
 		return "welcome";
 	}
+	
+	@GetMapping("/teamcity")
+	public String teamCity() {
+		return "Testing Team City Build Config";
+	}
 
 }
